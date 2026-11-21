@@ -2,8 +2,8 @@ backend:
   name: github
   repo: ebukaonyeuba1-collab/ebukaonyeuba
   branch: main
-site_url: https://ebukaonyeuba.vercel.app
-display_url: https://ebukaonyeuba.vercel.app
+site_url: https://ebukaonyeuba-portfolio.vercel.app
+display_url: https://ebukaonyeuba-portfolio.vercel.app
 media_folder: images
 public_folder: /images
 locale: en
