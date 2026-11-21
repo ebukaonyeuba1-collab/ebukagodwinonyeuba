@@ -1,0 +1,188 @@
+backend:
+  name: github
+  repo: ebukaonyeuba1-collab/ebukaonyeuba
+  branch: main
+site_url: https://ebukaonyeuba.vercel.app
+display_url: https://ebukaonyeuba.vercel.app
+media_folder: images
+public_folder: /images
+locale: en
+collections:
+  - name: portfolio
+    label: Portfolio
+    files:
+      - name: projects
+        label: Case studies
+        file: content/projects.json
+        format: json
+        fields:
+          - label: Case studies
+            name: projects
+            widget: list
+            label_singular: case study
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Link name, name: id, widget: string, hint: "Lowercase, no spaces, e.g. my-new-project. Used in the page link." }
+              - { label: Category line, name: type, widget: string, hint: "e.g. Fintech · Crypto Exchange · Product Manager" }
+              - { label: Title, name: title, widget: string }
+              - { label: Show on home page, name: featured, widget: boolean, default: false, hint: "Home page shows the first three that are switched on." }
+              - { label: Home page summary, name: summary, widget: text, required: false }
+              - { label: Home page tag, name: card_type, widget: string, required: false, hint: "Short category shown on the home page card. Leave empty to reuse the category line." }
+              - label: Screenshots shown under the title
+                name: preview
+                widget: list
+                required: false
+                summary: "{{fields.label}}"
+                hint: "Optional strip that is always visible, before the case study is opened."
+                fields:
+                  - { label: Image, name: image, widget: image }
+                  - { label: Caption, name: label, widget: string, required: false }
+              - label: Quick facts
+                name: meta
+                widget: list
+                label_singular: fact
+                summary: "{{fields.label}}: {{fields.value}}"
+                fields:
+                  - { label: Label, name: label, widget: string, hint: "Role, Timeline, Market, Status, Team" }
+                  - { label: Value, name: value, widget: string }
+              - label: Content
+                name: blocks
+                widget: list
+                typeKey: type
+                label_singular: block
+                hint: "Add a Heading to start a new section, then add text, points, screenshots and so on under it. Text supports **bold**, *italic* and [link text](https://link)."
+                types:
+                  - label: Heading
+                    name: heading
+                    widget: object
+                    summary: "{{fields.text}}"
+                    fields: [ { label: Heading, name: text, widget: string } ]
+                  - label: Paragraph
+                    name: text
+                    widget: object
+                    summary: "{{fields.text}}"
+                    fields: [ { label: Text, name: text, widget: text } ]
+                  - label: Bullet points
+                    name: points
+                    widget: object
+                    summary: "Points"
+                    fields:
+                      - label: Points
+                        name: items
+                        widget: list
+                        field: { label: Point, name: point, widget: text }
+                  - label: Screenshots
+                    name: screens
+                    widget: object
+                    summary: "Screenshots"
+                    fields:
+                      - label: Screenshots
+                        name: items
+                        widget: list
+                        summary: "{{fields.label}}"
+                        fields:
+                          - { label: Image, name: image, widget: image }
+                          - { label: Caption, name: label, widget: string, required: false }
+                  - label: Single image
+                    name: image
+                    widget: object
+                    summary: "{{fields.caption}}"
+                    fields:
+                      - { label: Image, name: image, widget: image }
+                      - { label: Caption, name: caption, widget: string, required: false }
+                  - label: Scores out of 5
+                    name: scores
+                    widget: object
+                    summary: "Scores"
+                    fields:
+                      - label: Scores
+                        name: items
+                        widget: list
+                        summary: "{{fields.label}}: {{fields.score}}"
+                        fields:
+                          - { label: Label, name: label, widget: string }
+                          - { label: Score, name: score, widget: number, value_type: float, min: 0, max: 5 }
+                  - label: Testimonial
+                    name: quote
+                    widget: object
+                    summary: "{{fields.author}}"
+                    fields:
+                      - { label: What they said, name: text, widget: text }
+                      - { label: Who said it, name: author, widget: string, required: false }
+                  - label: Tags
+                    name: tags
+                    widget: object
+                    summary: "Tags"
+                    fields:
+                      - label: Tags
+                        name: items
+                        widget: list
+                        field: { label: Tag, name: tag, widget: string }
+      - name: experience
+        label: Experience
+        file: content/experience.json
+        format: json
+        fields:
+          - label: Groups
+            name: groups
+            widget: list
+            label_singular: group
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Group title, name: title, widget: string, hint: "e.g. Professional Experience, Speaking" }
+              - label: Entries
+                name: items
+                widget: list
+                label_singular: entry
+                summary: "{{fields.role}} · {{fields.org}}"
+                fields:
+                  - { label: Company or event, name: org, widget: string }
+                  - { label: Location, name: location, widget: string, required: false }
+                  - { label: Job title or talk title, name: role, widget: string }
+                  - { label: Start, name: start, widget: string, hint: "e.g. Jul 2026" }
+                  - { label: End, name: end, widget: string, required: false, hint: "e.g. Present. Leave empty for one-off events." }
+                  - label: Highlights
+                    name: bullets
+                    widget: list
+                    required: false
+                    field: { label: Highlight, name: bullet, widget: text }
+      - name: awards
+        label: Awards and accomplishments
+        file: content/awards.json
+        format: json
+        fields:
+          - label: Categories
+            name: categories
+            widget: list
+            label_singular: category
+            summary: "{{fields.name}}"
+            hint: "Create a category here first, then pick it when adding an award."
+            fields:
+              - { label: Name, name: name, widget: string, hint: "Use *asterisks* around a word to italicise it." }
+              - { label: Description, name: description, widget: text }
+          - label: Awards
+            name: awards
+            widget: list
+            label_singular: award
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Category, name: category, widget: relation, collection: portfolio, file: awards, search_fields: ["categories.*.name"], value_field: "categories.*.name", display_fields: ["categories.*.name"] }
+              - { label: Title, name: title, widget: string }
+              - { label: Given by, name: issuer, widget: string }
+              - { label: Year or date, name: year, widget: string, required: false }
+              - { label: Presented to or note, name: recipient, widget: text, required: false }
+              - { label: Photo of the award, name: image, widget: image, required: false }
+      - name: site
+        label: Home page numbers
+        file: content/site.json
+        format: json
+        fields:
+          - label: Numbers strip
+            name: stats
+            widget: list
+            label_singular: number
+            summary: "{{fields.value}} {{fields.label}}"
+            hint: "Type {awards} as the value to show your live award count."
+            fields:
+              - { label: Value, name: value, widget: string }
+              - { label: Label, name: label, widget: string }

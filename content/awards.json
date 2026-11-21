@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "name": "Business & *Trading* Recognition",
+      "description": "Institutional recognition of Aced Xtrades as a trusted, best-in-class platform for crypto and gift card exchange."
+    },
+    {
+      "name": "Leadership & Community",
+      "description": "Personal recognition for impact, influence, and service within the Delta State University community and beyond."
+    },
+    {
+      "name": "Legislative & Political",
+      "description": "Recognition for legislative excellence and political leadership within student governance at Delta State University."
+    }
+  ],
+  "awards": [
+    {
+      "category": "Business & *Trading* Recognition",
+      "title": "Best Trader of the Year",
+      "issuer": "SOSSA — DELSU Chapter",
+      "year": "2022/2023",
+      "recipient": "Presented to: Aced Xtrades",
+      "image": "images/award-1.jpg"
+    },
+    {
+      "category": "Business & *Trading* Recognition",
+      "title": "Award of Excellence — Best Trader of the Year",
+      "issuer": "SOSSA — DELSU Chapter",
+      "year": "2023/2024",
+      "recipient": "Presented to: Aced Xtrades",
+      "image": "images/award-2.jpg"
+    },
+    {
+      "category": "Business & *Trading* Recognition",
+      "title": "Award of Recognition — Reliable Trader at Best Rate",
+      "issuer": "Dept of Mass Communication — DELSU",
+      "year": "",
+      "recipient": "Presented to: Aced Xtrades",
+      "image": "images/award-3.jpg"
+    },
+    {
+      "category": "Leadership & Community",
+      "title": "Award of Recognition — Philanthropist of the Year",
+      "issuer": "SOSSA — DELSU Chapter",
+      "year": "",
+      "recipient": "Presented to: Onyeuba Godwin Ebuka",
+      "image": "images/award-4.jpg"
+    },
+    {
+      "category": "Leadership & Community",
+      "title": "Most Influential Male",
+      "issuer": "AMASSCOS — DELSU",
+      "year": "2022/2023",
+      "recipient": "Presented to: Onyeuba Ebuka Godwin",
+      "image": "images/award-6.jpg"
+    },
+    {
+      "category": "Leadership & Community",
+      "title": "Hall of Fame Award",
+      "issuer": "Students Union Government — DELSU",
+      "year": "",
+      "recipient": "Outstanding Commitment to School Community & Remarkable Achievements Since Graduation",
+      "image": "images/award-8.jpg"
+    },
+    {
+      "category": "Legislative & Political",
+      "title": "Award of Excellence — Most Political Student (SUG Legislative)",
+      "issuer": "Dept of Mass Communication — DELSU",
+      "year": "",
+      "recipient": "Presented to: Sen. Onyeuba Godwin Ebuka",
+      "image": "images/award-5.jpg"
+    },
+    {
+      "category": "Legislative & Political",
+      "title": "Legislative Legacy Award",
+      "issuer": "Supreme Students' Senate — 31st Assembly, DELSU",
+      "year": "Jun 2025",
+      "recipient": "Dedication to Legislative Excellence, Transformative Leadership, and Continuous Impact",
+      "image": "images/award-7.jpg"
+    }
+  ]
+}
