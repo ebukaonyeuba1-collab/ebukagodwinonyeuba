@@ -1,0 +1,825 @@
+{
+  "projects": [
+    {
+      "id": "acedxtrades",
+      "type": "Fintech · Crypto & Gift Card Exchange · Founder-Led",
+      "title": "Aced Xtrades — Crypto Exchange App",
+      "featured": true,
+      "summary": "Launched a crypto & gift card exchange in six months with a team of 12, reaching $350K+ in transaction volume and a 45% retention increase.",
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Founder & Product Lead"
+        },
+        {
+          "label": "Timeline",
+          "value": "Dec 2021 – May 2026"
+        },
+        {
+          "label": "Market",
+          "value": "Nigeria / Africa"
+        },
+        {
+          "label": "Team",
+          "value": "12 across engineering, design, QA, marketing"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Overview"
+        },
+        {
+          "type": "text",
+          "text": "AcedXTrades is a mobile-first crypto and gift card exchange platform targeting the Nigerian and African market. As founder and PM, I led the end-to-end product lifecycle — from initial ideation and product vision through to launch and ongoing iteration. The platform enables users to buy, sell, and trade cryptocurrencies and gift cards with a focus on speed, trust, and liquidity."
+        },
+        {
+          "type": "heading",
+          "text": "The Problem"
+        },
+        {
+          "type": "text",
+          "text": "Nigerian crypto and gift card traders were largely served by informal vendors, often over WhatsApp. Trades involved delays and risk, pricing varied from vendor to vendor, consistent liquidity was hard to find, and there was little to guarantee a vendor would honour a deal."
+        },
+        {
+          "type": "text",
+          "text": "The opportunity was a trusted, mobile-first exchange that made trades fast and predictable, confirmed every outcome, and put more than one financial service in the same app."
+        },
+        {
+          "type": "heading",
+          "text": "My Role"
+        },
+        {
+          "type": "points",
+          "items": [
+            "Defined product vision, feature roadmap, and prioritization framework",
+            "Translated requirements into PRDs and user stories for engineering team",
+            "Designed user flows for crypto trading and gift card exchange",
+            "Managed UI/UX iterations for onboarding and trading experience",
+            "Coordinated cross-functional team: developers, designers, marketers, media",
+            "Drove partnerships and go-to-market execution",
+            "Ran a standing feedback loop with a **6,000+** member community and used RICE scoring to rank what to fix first",
+            "Defined product requirements around third-party dependencies, including liquidity and API partner integrations",
+            "Negotiated delivery timelines with developers (evidence below)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The Solution"
+        },
+        {
+          "type": "text",
+          "text": "I shaped Aced Xtrades as a mobile-first exchange built around speed and trust: buy, sell and receive crypto, trade gift cards and pay bills in one app, with clear confirmation of every outcome. What went into each release was decided by community feedback, scored with RICE, so effort went to the friction points users actually reported."
+        },
+        {
+          "type": "text",
+          "text": "For the V2 revamp I wrote product principles into the PRD, including speed beats aesthetics, clarity over optionality, and never leave users guessing."
+        },
+        {
+          "type": "heading",
+          "text": "Results & Impact"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**$350K+** in transaction volume after launch",
+            "**45%** retention increase from structured feedback loops with a 6,000+ member community, prioritized with RICE scoring",
+            "**6 months** from start to launch with a team of 12",
+            "**Delivery milestone:** V2 revamp PRD and a seven-phase roadmap completed (a planned release, not a shipped result)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "V2 Revamp — Product Requirements"
+        },
+        {
+          "type": "text",
+          "text": "I wrote the product requirements for a full platform revamp. The redesign addresses identified UX gaps and introduces modern architecture, wallet upgrades, and new feature categories including virtual card payments (Aced Card), merchant crypto checkout (Aced Pay), and in-app crypto education (Aced Learn)."
+        },
+        {
+          "type": "text",
+          "text": "I planned the revamp roadmap through structured phases: design → architecture → implementation → card integration → QA → soft launch → public relaunch."
+        },
+        {
+          "type": "text",
+          "text": "The revamp PRD targeted specific gaps: too many steps per transaction, weak success and error feedback, and low post-onboarding retention. I defined the success metrics up front: transaction completion rate, average transaction time, Day 7 and Day 30 retention, and support tickets per 1,000 users. These are targets, not results."
+        },
+        {
+          "type": "text",
+          "text": "[Read the V2 revamp PRD (PDF)](docs/acedxtrades-revamp-prd.pdf)"
+        },
+        {
+          "type": "text",
+          "text": "Revamp PRD: problem statement, goals, KPIs and target users"
+        },
+        {
+          "type": "screens",
+          "items": [
+            {
+              "image": "images/prd-1.jpg",
+              "label": "Overview"
+            },
+            {
+              "image": "images/prd-2.jpg",
+              "label": "Goals and KPIs"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "PM Decision Proof — Timeline Management"
+        },
+        {
+          "type": "image",
+          "image": "images/whatsapp-chat.jpg",
+          "caption": "WhatsApp — PM Negotiating Developer Timeline (Names Blurred)"
+        },
+        {
+          "type": "heading",
+          "text": "Planned Sub-Products"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**Aced Card** — Virtual USD/USDT card enabling users to spend digital assets online. Defined card lifecycle, transaction flows, and competitor analysis.",
+            "**Aced Pay** — Merchant crypto checkout infrastructure. Designed merchant onboarding, checkout flow, and settlement structure.",
+            "**Aced Learn** — In-app crypto/blockchain education with gamified features and structured learning modules."
+          ]
+        }
+      ],
+      "preview": [
+        {
+          "image": "images/acedx-onboarding.jpg",
+          "label": "Onboarding"
+        },
+        {
+          "image": "images/acedx-home.jpg",
+          "label": "Home Dashboard"
+        },
+        {
+          "image": "images/acedx-receive.jpg",
+          "label": "Receive / QR"
+        },
+        {
+          "image": "images/acedx-chart.jpg",
+          "label": "BTC Chart"
+        },
+        {
+          "image": "images/acedx-settings.jpg",
+          "label": "Settings"
+        },
+        {
+          "image": "images/aced-sell.jpg",
+          "label": "Sell USDT"
+        },
+        {
+          "image": "images/aced-success.jpg",
+          "label": "Confirmation"
+        }
+      ],
+      "card_type": "Fintech · Crypto Exchange"
+    },
+    {
+      "id": "agora",
+      "type": "Marketplace · Escrow · Product Manager",
+      "title": "Agora Marketplace",
+      "featured": true,
+      "summary": "Shipped the MVP of a digital marketplace with escrow protection in 48 hours and own the product roadmap.",
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Product Manager"
+        },
+        {
+          "label": "Timeline",
+          "value": "Jul 2026 – Present"
+        },
+        {
+          "label": "Market",
+          "value": "Nigeria"
+        },
+        {
+          "label": "Status",
+          "value": "MVP live"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Overview"
+        },
+        {
+          "type": "text",
+          "text": "Agora is a digital marketplace built around escrow protection, so a buyer's money is held until the order arrives. The product promise is simple: shop safe, and sellers get paid when they deliver."
+        },
+        {
+          "type": "heading",
+          "text": "The Problem"
+        },
+        {
+          "type": "text",
+          "text": "Buying from online sellers carries real risk: fraud, goods that never arrive, and payment disputes with no neutral party to settle them. Buyers want to know their money is protected until they receive what they paid for. Sellers want to know they will be paid once they fulfil the order."
+        },
+        {
+          "type": "text",
+          "text": "The opportunity was a marketplace where that confidence is built into the transaction itself, through escrow and a structured interaction between buyer and seller."
+        },
+        {
+          "type": "heading",
+          "text": "My Role"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**48 hours** to ship the MVP, validating the marketplace concept with live users",
+            "Defined core user flows and product requirements before build",
+            "Built and deployed the web application via GitHub and Vercel",
+            "Own the roadmap and feature prioritization",
+            "Turn customer feedback and market research into PRDs for engineering and design",
+            "Used AI-assisted development tools and coordinated the implementation from requirements through to deployment"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The Solution"
+        },
+        {
+          "type": "text",
+          "text": "An escrow-centred marketplace. The buyer's payment is held and only released to the seller once the order arrives, and an order timeline shows where each order stands. I scoped the MVP to the two core sides and the escrow order lifecycle so a working version could ship in 48 hours."
+        },
+        {
+          "type": "heading",
+          "text": "Product Scope"
+        },
+        {
+          "type": "text",
+          "text": "The product serves two sides. Buyers get onboarding, orders, notifications, and an account page. Sellers get their own onboarding, a dashboard, product listings, orders, notifications, and payouts."
+        },
+        {
+          "type": "heading",
+          "text": "Research and Delivery"
+        },
+        {
+          "type": "points",
+          "items": [
+            "Interviewed **20+ people** and ran market analysis to decide what to build and why",
+            "Built the Notion workspace, PRDs, prototypes and the MVP",
+            "Run the kanban board and sprint rhythm for a team of **7**"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Results & Impact"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**48 hours** from requirements to a deployed MVP (delivery milestone)",
+            "**2** sides in the MVP: buyers and sellers, each with their own onboarding and order flow (product scope)",
+            "**7** people on the kanban board and sprint rhythm I run (team)",
+            "**Foundation for validation:** the MVP gives a working base for structured user testing of the escrow model. Adoption results are not reported yet."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prototype Screens (sample data)"
+        },
+        {
+          "type": "screens",
+          "items": [
+            {
+              "image": "images/agora-home.jpg",
+              "label": "Home"
+            },
+            {
+              "image": "images/agora-browse.jpg",
+              "label": "Browse"
+            },
+            {
+              "image": "images/agora-order.jpg",
+              "label": "Order timeline"
+            },
+            {
+              "image": "images/agora-account.jpg",
+              "label": "Account"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "In their words"
+        },
+        {
+          "type": "quote",
+          "text": "You are very good at what you do. Keep it up.",
+          "author": "Founder and CEO, Agora"
+        }
+      ],
+      "preview": [],
+      "card_type": "Marketplace · Escrow"
+    },
+    {
+      "id": "foodhunt",
+      "type": "Marketplace · Food Delivery · Product Manager",
+      "title": "FoodHunt",
+      "featured": false,
+      "summary": "Product manager for a three-sided food marketplace. Reached 1,000 active users within two months of launch.",
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Product Manager"
+        },
+        {
+          "label": "Timeline",
+          "value": "Dec 2025 – May 2026"
+        },
+        {
+          "label": "Market",
+          "value": "Delta State, Nigeria"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Overview"
+        },
+        {
+          "type": "text",
+          "text": "FoodHunt is a three-sided marketplace connecting customers, merchants and riders. I owned the roadmap and worked with engineering, design, QA and the business team to keep releases moving across all three experiences."
+        },
+        {
+          "type": "heading",
+          "text": "The Problem"
+        },
+        {
+          "type": "text",
+          "text": "A food order depends on three parties at once: the customer ordering, the merchant preparing and the rider delivering. Each needs something different from the same order, and fragmented processes made it hard to keep them coordinated, so a miss on one side degraded the experience for the other two."
+        },
+        {
+          "type": "text",
+          "text": "The opportunity was one platform that gave customers, merchants and riders each a clear experience, with orders and fulfilment flowing between them."
+        },
+        {
+          "type": "heading",
+          "text": "My Role"
+        },
+        {
+          "type": "points",
+          "items": [
+            "Ran discovery and turned it into epics, user stories and acceptance criteria",
+            "Facilitated sprint planning and backlog grooming, and coordinated releases",
+            "Led launch and activation in **Abraka** and other cities in Delta State",
+            "Wrote a brand and market analysis: competitor matrix, SWOT and a 90-day action plan",
+            "Defined separate user journeys for customers, merchants and riders",
+            "Used launch feedback and operational insights to guide product improvements"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The Solution"
+        },
+        {
+          "type": "text",
+          "text": "One product with three experiences, customer, merchant and rider, run from one roadmap so releases stayed in step. Onboarding supports personal and business accounts, and the app includes a wallet. To give the launch direction in Delta State, I wrote a brand and market analysis with a competitor matrix, SWOT and 90-day action plan."
+        },
+        {
+          "type": "heading",
+          "text": "Results & Impact"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**1,000** active users within two months of launch (team outcome)",
+            "**3** user groups served from one roadmap: customers, merchants and riders",
+            "**90-day** growth action plan delivered with the brand and market analysis (deliverable)",
+            "Launch and activation in **Abraka** and other Delta State cities (qualitative outcome)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "App Screens"
+        },
+        {
+          "type": "screens",
+          "items": [
+            {
+              "image": "images/fh-splash.jpg",
+              "label": "Splash"
+            },
+            {
+              "image": "images/fh-onboard.jpg",
+              "label": "Onboarding"
+            },
+            {
+              "image": "images/fh-profile.jpg",
+              "label": "Profile and wallet"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "In their words"
+        },
+        {
+          "type": "quote",
+          "text": "The market analysis you did, helped us a lot. Now we understand our market and know what to do to get our share of it. Kudos.",
+          "author": "Founder and CEO, FoodHunt"
+        }
+      ],
+      "preview": []
+    },
+    {
+      "id": "runam",
+      "type": "Marketplace · Errands · Research and Prototype",
+      "title": "RunAm",
+      "featured": false,
+      "summary": "",
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Founder"
+        },
+        {
+          "label": "Stage",
+          "value": "Research and prototype"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Overview"
+        },
+        {
+          "type": "text",
+          "text": "RunAm is an errand marketplace. Before building, I ran market analysis, surveys and interviews through SurveyMonkey and Google Forms, then built a working prototype so design and engineering shared one picture of the product."
+        },
+        {
+          "type": "heading",
+          "text": "The Problem"
+        },
+        {
+          "type": "text",
+          "text": "People regularly need help with everyday errands but have no convenient way to find and coordinate someone reliable to do them. The opportunity was a marketplace connecting people who need tasks done with people available to do them."
+        },
+        {
+          "type": "heading",
+          "text": "My Role"
+        },
+        {
+          "type": "points",
+          "items": [
+            "Ran market and competitor research",
+            "Developed the initial product concept and business model",
+            "Ran user discovery through surveys and interviews (SurveyMonkey and Google Forms) and turned findings into requirements",
+            "Defined the marketplace experience for both sides",
+            "Wrote the product documentation and feature requirements",
+            "Built a working prototype so design and engineering shared one picture of the product"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The Solution"
+        },
+        {
+          "type": "text",
+          "text": "A two-sided errand marketplace, requesters and service providers, defined through research before any build. The prototype turned the research findings into something the team could react to."
+        },
+        {
+          "type": "heading",
+          "text": "Results & Impact"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**Stage:** research and working prototype. Not launched, so no user or revenue figures are reported",
+            "Completed market and competitor research and translated the findings into product requirements",
+            "Working prototype used to align design and engineering on the concept"
+          ]
+        }
+      ],
+      "preview": []
+    },
+    {
+      "id": "spacerestore",
+      "type": "Services · Founder-Led · Cleaning & Restoration",
+      "title": "SpaceRestore",
+      "featured": true,
+      "summary": "Launched a cleaning and restoration business in three weeks and grew it to 150+ paying clients with a 60%+ referral rate.",
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Co-Founder & Product Lead"
+        },
+        {
+          "label": "Timeline",
+          "value": "Jan 2026 – Present"
+        },
+        {
+          "label": "Market",
+          "value": "Delta State, Nigeria"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Overview"
+        },
+        {
+          "type": "text",
+          "text": "SpaceRestore is a cleaning and maintenance service business. I treated it like a product: gather requirements from early service users, then iterate on the service offering, pricing, and booking flow based on what they told me."
+        },
+        {
+          "type": "text",
+          "text": "[Visit spacerestore.com.ng](https://spacerestore.com.ng)"
+        },
+        {
+          "type": "heading",
+          "text": "The Problem"
+        },
+        {
+          "type": "text",
+          "text": "Customers looking for cleaning and restoration services often face uncertainty about quality, pricing, booking and accountability. It is hard to know what you will get, what it will cost and who is responsible if it falls short."
+        },
+        {
+          "type": "text",
+          "text": "The opportunity was a structured service experience that makes it easier to discover, book and receive professional cleaning."
+        },
+        {
+          "type": "heading",
+          "text": "My Role"
+        },
+        {
+          "type": "points",
+          "items": [
+            "Defined the service offering and the customer experience around it",
+            "Set up the operational and service delivery processes",
+            "Positioned the brand and built the digital presence: six-page site, custom domain, brand identity and service documentation",
+            "Structured how customers book and engage with the business",
+            "Gathered requirements from early clients and iterated on offerings, pricing and the booking flow",
+            "Oversaw the launch and day-to-day operations"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "The Solution"
+        },
+        {
+          "type": "text",
+          "text": "I treated the business as a product. Requirements from early clients shaped the service offering, pricing and booking flow, and the site, brand and service documentation let customers see what is offered and how booking works before they commit."
+        },
+        {
+          "type": "heading",
+          "text": "Results & Impact"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**150+** paying clients",
+            "**60%+** referral rate",
+            "**3 weeks** from start to launch, with a six-page site, custom domain, brand identity, and service documentation"
+          ]
+        }
+      ],
+      "preview": [],
+      "card_type": "Services · Founder-Led"
+    },
+    {
+      "id": "kudateen",
+      "type": "Banking · Youth Finance · Independent Product Analysis (EntryLevel PM Course)",
+      "title": "Kuda Teen Debit Card",
+      "featured": false,
+      "summary": "",
+      "meta": [
+        {
+          "label": "Role",
+          "value": "Independent product analysis (not a Kuda role)"
+        },
+        {
+          "label": "Type",
+          "value": "Course Portfolio Project"
+        },
+        {
+          "label": "Market",
+          "value": "Nigeria — Teens 11–18"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Context"
+        },
+        {
+          "type": "text",
+          "text": "This is a product concept case study completed as part of my EntryLevel Product Management Level 1 certification. It demonstrates my ability to apply PM frameworks — from problem discovery through to MVP definition and prototype scoping — in a realistic product context."
+        },
+        {
+          "type": "text",
+          "text": "The project was set within the Kuda Microfinance Bank ecosystem. All research, prioritization, and design decisions were conducted independently as part of the programme."
+        },
+        {
+          "type": "text",
+          "text": "This is independent analysis. I am not affiliated with Kuda, and I did not build or manage this product."
+        },
+        {
+          "type": "heading",
+          "text": "The Opportunity"
+        },
+        {
+          "type": "text",
+          "text": "Teenagers aged 11–18 in Nigeria need to make offline and online payments but cannot open bank accounts. This leaves them dependent on cash — which creates safety risks, zero parental spending visibility, and blocked access to online marketplaces and digital services."
+        },
+        {
+          "type": "heading",
+          "text": "Target Market"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**End Users:** Teens aged 11–18 in urban/semi-urban Nigeria",
+            "**Buyers:** Parents aged 28–50 with Kuda accounts",
+            "**Key Cities:** Lagos, Abuja, Port Harcourt, Enugu, Ibadan, Delta",
+            "**Market Signal:** E-payment value grew ₦280T → ₦384T (2024–2025)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "My Analysis"
+        },
+        {
+          "type": "text",
+          "text": "Conducted 3 user interviews to validate the problem space. Key validated pain points: cash loss and theft risk, inability to monitor teen spending, difficulty accessing online payments for school subscriptions and e-commerce, and desire for parental controls without full account responsibility."
+        },
+        {
+          "type": "text",
+          "text": "The interviews pointed the same way: parents want visibility and control, while teens want access to payments. I focused the analysis on the parent-facing management journey, because the parent is the buyer and the person who has to trust the product."
+        },
+        {
+          "type": "heading",
+          "text": "PM Frameworks Applied"
+        },
+        {
+          "type": "tags",
+          "items": [
+            "Assumptions Mapping",
+            "Risk/Importance Graph",
+            "Affinity Mapping",
+            "Feature Mapping",
+            "MoSCoW Prioritisation",
+            "T-Shirt Sizing",
+            "Value vs Effort Map"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Recommendations"
+        },
+        {
+          "type": "text",
+          "text": "A prepaid debit card product that lives inside the Kuda mobile app, requiring no bank account. Teens use the card for purchases; parents top up balances, set spending limits, receive real-time notifications, and can freeze the card instantly — all from the Kuda app."
+        },
+        {
+          "type": "text",
+          "text": "Each MVP feature traces back to a pain point from the interviews: spending limits and real-time notifications address the lack of visibility, instant freeze addresses cash loss and theft risk, virtual card access addresses blocked online payments, and the funding dashboard keeps control with the parent without needing a full bank account for the teen."
+        },
+        {
+          "type": "heading",
+          "text": "MVP Features"
+        },
+        {
+          "type": "points",
+          "items": [
+            "Parent-set spending limits per transaction / period",
+            "Real-time push notifications for all teen transactions",
+            "Instant card lock / freeze from parent dashboard",
+            "Virtual card access for online purchases",
+            "Parent funding dashboard within Kuda app",
+            "Teen one-time spending approval requests"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prototype"
+        },
+        {
+          "type": "text",
+          "text": "Produced a clickable Figma prototype of the \"Teen Card\" section within the Kuda app, scoped to the parent-facing management flow — including card setup, spending limits, transaction history, and freeze/unfreeze controls."
+        }
+      ],
+      "preview": []
+    },
+    {
+      "id": "moniepoint",
+      "type": "Product Analysis · Fintech · Nigeria",
+      "title": "Moniepoint — Product Teardown",
+      "featured": false,
+      "summary": "",
+      "meta": [
+        {
+          "label": "Type",
+          "value": "Competitive Product Analysis"
+        },
+        {
+          "label": "Date",
+          "value": "March 2026"
+        },
+        {
+          "label": "Focus",
+          "value": "UX, Distribution, Monetisation, Support"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Overview"
+        },
+        {
+          "type": "text",
+          "text": "An in-depth product teardown of Moniepoint — Nigeria's leading merchant banking and POS payments platform. I evaluated the product across five dimensions, scoring each on a five-point scale, and provided structured recommendations for each gap identified."
+        },
+        {
+          "type": "text",
+          "text": "This is an independent product analysis. I am not affiliated with Moniepoint, and I did not build or manage this product. It started from my own experience of how frictionless the app felt when receiving a transfer, which made me want to understand the product decisions behind it."
+        },
+        {
+          "type": "heading",
+          "text": "Problem and Target Market"
+        },
+        {
+          "type": "text",
+          "text": "Moniepoint serves informal merchants, agent banking customers and small business owners in tier-2 and tier-3 cities, a segment most Nigerian fintechs treated as secondary. For these users, a traditional bank account typically means an in-branch visit and several working days."
+        },
+        {
+          "type": "heading",
+          "text": "Value Proposition"
+        },
+        {
+          "type": "text",
+          "text": "Reliability for merchants: an account that can be activated in under five minutes, a POS terminal delivered within 48 hours, and a merchant toolset that links payments to inventory, sales records and credit access."
+        },
+        {
+          "type": "heading",
+          "text": "Scores"
+        },
+        {
+          "type": "scores",
+          "items": [
+            {
+              "label": "Onboarding",
+              "score": 5.0
+            },
+            {
+              "label": "Core Features",
+              "score": 4.0
+            },
+            {
+              "label": "UX & Design",
+              "score": 3.0
+            },
+            {
+              "label": "Monetisation",
+              "score": 3.0
+            },
+            {
+              "label": "Customer Support",
+              "score": 2.0
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What Moniepoint Gets Right"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**Onboarding Design** — Phone number first, USSD OTP for low-connectivity areas, account in under 5 minutes. Built for its actual users.",
+            "**Distribution as Strategy** — POS agents across 33 states, Relationship Manager model, 48-hour terminal delivery.",
+            "**Moniebook Data Flywheel** — Payments generate transaction data → credit decisions → merchant growth → more transactions. Creates genuine switching costs."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Key Gaps & Recommendations"
+        },
+        {
+          "type": "points",
+          "items": [
+            "**Customer Support** — No in-app dispute tracker, no proactive notifications, no escalation SLA paths. Recommendation: real-time in-app dispute tracker with status updates.",
+            "**Personal Banking Identity** — ₦10 transfer fee vs free competitors, no cross-product rewards. Recommendation: tiered rewards linking merchant activity to personal account benefits.",
+            "**Session Stability** — App terminates sessions without warning during active transactions. Recommendation: proactive push notifications for any account restrictions or session changes.",
+            "**Incoming-Transfer Alerts** — The business app sends no push notification when a transfer arrives, so merchants must open the app to confirm payment. Recommendation: real-time payment notifications, which are standard across comparable products."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Overall Assessment"
+        },
+        {
+          "type": "text",
+          "text": "The most important work ahead for Moniepoint is not new features. It is holding the post-onboarding experience, and customer support in particular, to the same standard as the onboarding that precedes it. Customer support is where the trust built by acquisition is most at risk, which makes it the first priority."
+        }
+      ],
+      "preview": []
+    }
+  ]
+}
